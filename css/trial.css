@@ -1,0 +1,74 @@
+.trial{
+	padding: 0;
+}
+.trial .left-menu{
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+	font-size: 16px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.trial .left-menu #dropbtn{
+	display: none;
+}
+
+.trial .left-menu ul li{
+	list-style: none;
+	text-align: left;
+	padding-left: 40px;
+	border-bottom: solid 1px rgb(230,230,230);
+	height: 50px;
+	line-height: 50px;
+	cursor: pointer;
+	
+}
+.trial .left-menu ul li:hover{
+	background-color: rgb(240,240,240);
+}
+.menu-on{
+	background-color: rgb(240,240,240);
+}
+.trial .pages{
+	display: inline-block;
+	width: calc(100% - 310px);
+	padding: 50px;
+	
+	border-left:solid 1px #ccc;
+	margin-left: -4px;
+}
+.trial .pages h2{
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+.trial .pages ul li{
+	list-style: none;
+	display: block;	
+	width: 320px;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+}
+.trial .pages ul,.trial .pages ol{
+	text-align: left;
+	padding-top: 20px;
+	padding-left: calc(50% - 130px);
+}
+.trial .pages ol{
+	padding-left: 50px;
+	padding-top: 2px;
+}
+.trial .pages ol li{
+	font-size: 16px;
+	line-height: 30px;
+}
+.trial .pages p{
+	text-indent: 2em;
+	font-size: 16px;
+	text-align: left;
+	line-height: 30px;
+	margin-bottom: 6px;
+}
+.contact{
+	border-top: solid 1px #ccc;
+}

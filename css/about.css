@@ -1,0 +1,19 @@
+.about p{
+	display: block;
+	width: 100%;
+	padding:0px 20%;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: left;
+	text-indent: 2em;
+}
+.about p:first-of-type{
+	padding-top: 100px;
+}
+.about p:last-of-type{
+	padding-bottom: 50px;
+}
+.about img{
+	max-width: 750px;
+	width: 80%;
+}

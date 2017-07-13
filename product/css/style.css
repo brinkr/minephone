@@ -1,0 +1,101 @@
+body{
+	background-color: #F6F6F6;
+}
+.product{
+	background-color: #2288DD;
+	display:block;
+	height: 280px;
+	line-height: 260px;
+	margin-top: 59px;
+}
+.product p{
+	color: #fff;
+	font-size: 50px;
+	text-shadow:0px 0px 1px #999;
+}
+.intro{
+	padding-top: 50px;
+}
+.intro p{
+	line-height: 30px;
+	margin-bottom: 6px;
+	padding: 0 20%;
+	text-align: left;
+	text-indent: 2em;
+	color: #000;
+	font-size: 16px;
+}
+.function{
+	
+}
+.function h2,.advantage h2,.solution h2{
+	font-size: 42px;
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+.function ul,.function ol{
+	line-height: 38px;
+	font-size: 16px;
+	display: block;
+	padding: 0 22%;
+	text-align: left;
+}
+.function ol li{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.function ol p{
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.advantage{
+	display: block;
+	width: 100%;
+	padding: 0 6%;
+}
+.advantage>div{
+	display: flex;
+	margin-top: 60px;
+	width: 100%;
+	justify-content: space-around;
+}
+.advantage>div>div{
+	background-color: #28d;
+	color: #fff;
+	display: inline-block;
+	width: 23%;
+	padding-bottom: 20px;
+}
+.advantage>div>div>p{
+	line-height: 40px;
+	font-size: 16px;
+}
+.solution ul{
+	display: block;
+	width: 100%;
+	padding: 0 5%;
+}
+.solution ul li{	
+	display: inline-block;
+	width: 24%;
+	height: 200px;
+	vertical-align: top;
+}
+
+.solution ul li div{
+	display: block;
+	width: 120px;
+	height: 120px;
+	line-height: 120px;
+	background-color: #28d;
+	color: #fff;
+	border-radius: 50%;
+	margin-left: calc(50% - 60px);
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.solution ul li p{
+	text-align: left;
+	margin: 16px;
+	font-size: 16px;
+}
